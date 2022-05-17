@@ -5,6 +5,7 @@ dist/
 
 data.json
 main.js
+yarn-error.log
 
 *.code-workspace
 .DS_Store

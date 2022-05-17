@@ -1,10 +1,10 @@
 {
-  "id": "another-react-starter",
-  "name": "Another React Starter",
-  "description": "Obsidian + ReactJS + Less + Vite + Prettier",
-  "version": "0.0.0",
+  "id": "obsidian-map-for-note",
+  "name": "Map For Note",
+  "description": "Search paths between note and note",
+  "version": "0.1.0",
   "author": "Boninall",
   "authorUrl": "https://github.com/Quorafind/",
   "isDesktopOnly": false,
-  "minAppVersion": "0.14.1"
+  "minAppVersion": "0.14.6"
 }
