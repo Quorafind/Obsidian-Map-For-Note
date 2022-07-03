@@ -399,7 +399,6 @@ export class Graph {
         if (nextVertex.edges.size === 0) {
           nextVertex = this.getVertexByKey(nextVertex.getKey());
         }
-        console.log(nextVertex.edges.size);
         neighborStack.push(curNeighbors); // 将其压栈压回去
         // 如果存在下一个节点
         if (nextVertex) {
@@ -419,6 +418,11 @@ export class Graph {
       if (peekNode === target) {
         yield mainStack.toArray();
 
+        // 削减一层
+        cutdownDualStack(mainStack, neighborStack, visited);
+      }
+
+      if (mainStack.stack.length > 10) {
         // 削减一层
         cutdownDualStack(mainStack, neighborStack, visited);
       }
