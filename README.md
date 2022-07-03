@@ -6,6 +6,12 @@ A plugin for search paths between notes.
 
 No now.
 
+## Thanks
+
+- [Obsidian-Journey](https://github.com/akaalias/obsidian-journey-plugin)
+- [SS-graph](https://github.com/boycgit/ss-graph)
+- [Dagre-reactjs](https://github.com/bobthekingofegypt/dagre-reactjs)
+
 ## How to Install
 
 ### From Plugin Market in Obsidian
