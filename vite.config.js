@@ -12,8 +12,11 @@ export default defineConfig(({ mode }) => {
       sourcemap: mode === 'development' ? 'inline' : false,
       minify: false,
       // Use Vite lib mode https://vitejs.dev/guide/build.html#library-mode
+      commonjsOptions: {
+        ignoreTryCatch: false,
+      },
       lib: {
-        entry: path.resolve(__dirname, './src/index.ts'),
+        entry: path.resolve(__dirname, './src/mapForNoteIndex.ts'),
         formats: ['cjs'],
       },
       css: {

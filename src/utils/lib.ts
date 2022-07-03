@@ -33,3 +33,7 @@ export function isExist(val: any, andString = true): boolean {
     return result;
   }
 }
+
+export const wrapAround = (value: number, size: number): number => {
+  return ((value % size) + size) % size;
+};

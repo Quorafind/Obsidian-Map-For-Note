@@ -1,27 +1,29 @@
-# obsidian-react-starter
+# Obsidian Task Progress Bar
 
-Code From Original Template: [React Starter](https://github.com/obsidian-community/obsidian-react-starter)
+A plugin for search paths between notes.
 
-A starter template for creating an [Obsidian](https://obsidian.md/) plugin with [ReactJS](https://reactjs.org/).
+## Settings
 
-## Features
+No now.
 
-This project comes preconfigured with [Typescript](https://www.typescriptlang.org/), [Vite](https://vitejs.dev/) And [Less](https://lesscss.org/).
+## How to Install
 
-## Getting Started
+### From Plugin Market in Obsidian
 
-Click "use this template" to create your own fork of this repo. Make sure to reference [the official sample plugin](https://github.com/obsidianmd/obsidian-sample-plugin) for information about how to get started with the Obsidian API and how to submit your plugin to the Community Plugin Gallery.
+💜: Directly install from Obsidian Market[Not available].
 
-```bash
-# for local development
-yarn install
-yarn dev
+### From BRAT
 
-# for a production bundle
-yarn install
-yarn build
-```
+🚗: Add `Quorafind/Obsidian-Map-For-Note` to BRAT.
 
-## Stats
+### Download Manually
 
-The production output of this sample plugin is **~50 KB**.
+🚚: Download the latest release. Extract and put the three files (main.js, manifest.json, styles.css) to
+folder `{{obsidian_vault}}/.obsidian/plugins/Obsidian-Map-For-Note`.
+
+## Say Thank You
+
+If you are enjoy using Obsidian-Task-Progress-Bar then please support my work and enthusiasm by buying me a coffee
+on [https://www.buymeacoffee.com/boninall](https://www.buymeacoffee.com/boninall).
+
+<a href="https://www.buymeacoffee.com/boninall"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=boninall&button_colour=6495ED&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"></a>
