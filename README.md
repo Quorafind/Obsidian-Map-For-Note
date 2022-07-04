@@ -2,6 +2,8 @@
 
 A plugin for search paths between notes.
 
+![example](https://github.com/Quorafind/Obsidian-Map-For-Note/blob/main/media/mapForNote.gif)
+
 ## Settings
 
 No now.
