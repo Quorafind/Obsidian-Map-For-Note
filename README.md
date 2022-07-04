@@ -1,4 +1,4 @@
-# Obsidian Task Progress Bar
+# Obsidian Map For Note
 
 A plugin for search paths between notes.
 
