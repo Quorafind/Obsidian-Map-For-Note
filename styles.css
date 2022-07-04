@@ -454,9 +454,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mfn-flex {
   display: flex;
 }
-.mfn-h-2\/3 {
-  height: 66.666667%;
-}
 .mfn-h-full {
   height: 100%;
 }
@@ -469,8 +466,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mfn-h-3\/4 {
   height: 75%;
 }
-.mfn-w-2\/3 {
-  width: 66.666667%;
+.mfn-h-auto {
+  height: auto;
+}
+.mfn-h-2\/3 {
+  height: 66.666667%;
 }
 .mfn-w-full {
   width: 100%;
@@ -483,6 +483,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .mfn-w-3\/4 {
   width: 75%;
+}
+.mfn-w-auto {
+  width: auto;
+}
+.mfn-w-2\/3 {
+  width: 66.666667%;
 }
 .mfn-flex-row {
   flex-direction: row;
