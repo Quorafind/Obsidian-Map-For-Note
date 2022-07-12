@@ -4,12 +4,12 @@ import { TextInputSuggest } from './suggest';
 
 export class FileSuggest extends TextInputSuggest<TFile> {
   getSuggestions(inputStr: string): TFile[] {
-    const abstractFiles = this.app.vault.getAllLoadedFiles();
+    const abstractFiles = this.app.vault.getMarkdownFiles();
     const files: TFile[] = [];
     const lowerCaseInputStr = inputStr.toLowerCase();
 
-    abstractFiles.forEach((file: TAbstractFile) => {
-      if (file instanceof TFile && file.extension === 'md' && file.path.toLowerCase().contains(lowerCaseInputStr)) {
+    abstractFiles.forEach((file: TFile) => {
+      if (file.path.toLowerCase().contains(lowerCaseInputStr)) {
         files.push(file);
       }
     });
