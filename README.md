@@ -1,4 +1,6 @@
-# Obsidian Map For Note
+# Obsidian Map For Note [Deprecated]
+
+> This project is deprecated because of its low performance and I have no time to polish it, use [Path-Finder](https://github.com/jerrywcy/obsidian-path-finder) instead.
 
 A plugin for search paths between notes.
 
